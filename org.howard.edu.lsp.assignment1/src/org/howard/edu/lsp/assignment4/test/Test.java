@@ -125,9 +125,10 @@ public class Test {
 			System.out.println("\n");
 			System.out.println("\n");
 			
+			
 			//string test
 			System.out.println(test1.toString());
-			System.out.println(test2.toString());
+			System.out.println("This one: " + test2.toString());
 			System.out.println(test3.toString());
 
 			
@@ -140,6 +141,8 @@ public class Test {
 			//equal test
 			System.out.println("T if equal, F if not: " + test1.equals(test2));
 			System.out.println("T if equal, F if not: " + test2.equals(test3));
+			
+			System.out.println("smallest: " + test1.smallest());
 
 
 		
@@ -152,4 +155,5 @@ public class Test {
 		
 		
 	}
+
 
