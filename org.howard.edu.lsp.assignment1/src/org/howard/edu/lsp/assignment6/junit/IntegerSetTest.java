@@ -206,7 +206,7 @@ class IntegerSetTest {
 			}
 		}
 		test1.intersect(test2);
-		System.out.println("this ::" + test2);
+
 		assertEquals(test1.toString(), "[]");
 	}
 	
